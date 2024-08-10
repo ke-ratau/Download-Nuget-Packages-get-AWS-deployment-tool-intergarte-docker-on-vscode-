@@ -1,0 +1,25 @@
+Can I download nuget packages, get aws deployment tool and intergarte docker on vscode? 
+
+Yes, you can download NuGet packages, get the AWS deployment tool, and integrate Docker within Visual Studio Code (VS Code). Here’s how you can achieve each of these tasks:
+
+
+Installing .NET SDK: Download .NET SDK
+
+Adding NuGet Package: dotnet add package [PackageName]
+
+
+Then Restoring NuGet Packages:
+ shell CMD : dotnet restore
+ AWS Toolkit Extension: AWS Toolkit for Visual Studio Code
+---
+Connecting to AWS:
+
+AWS: Connect to AWS (from Command Palette)
+Docker Desktop: Download Docker Desktop
+-----
+Docker Extension: Docker Extension for VS Code
+
+Adding Docker Files:
+
+Docker: Add Docker Files to Workspace (from Command Palette)
+By following these steps, you can efficiently manage NuGet packages, deploy to AWS, and work with Docker containers all within Visual Studio Code.
